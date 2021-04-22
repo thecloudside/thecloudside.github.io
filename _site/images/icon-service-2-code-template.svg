@@ -1,0 +1,14 @@
+<svg width="138" height="138" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="15.5879" y="26.7246" width="50.092" height="71.3362" rx="8" fill="#302CFF"/>
+<rect opacity="0.32" x="72.3203" y="26.7246" width="50.092" height="71.3362" rx="8" fill="#302CFF"/>
+<path opacity="0.3" d="M41.9004 97.104V104.275C41.9004 108.141 45.0344 111.275 48.9004 111.275H89.8659C93.7318 111.275 96.8659 108.141 96.8659 104.275V97.104" stroke="#302CFF" stroke-width="3" stroke-linecap="round"/>
+<circle cx="97.3664" cy="98.0609" r="7.3811" fill="#302CFF"/>
+<circle cx="40.634" cy="98.0609" r="7.3811" fill="white"/>
+<rect opacity="0.5" x="22.2354" y="36.1481" width="36.798" height="10.0684" rx="2" fill="white"/>
+<rect opacity="0.6" x="78.9668" y="36.1481" width="36.798" height="10.0684" rx="2" fill="#302CFF"/>
+<rect opacity="0.5" x="22.2354" y="50.4541" width="36.798" height="10.0684" rx="2" fill="white"/>
+<rect opacity="0.5" x="22.2354" y="64.9149" width="36.798" height="10.0684" rx="2" fill="white"/>
+<rect opacity="0.6" x="78.9668" y="50.4541" width="36.798" height="10.0684" rx="2" fill="#302CFF"/>
+<rect opacity="0.6" x="78.9668" y="64.9149" width="36.798" height="10.0684" rx="2" fill="#302CFF"/>
+<rect opacity="0.1" width="138" height="138" fill="#302CFF"/>
+</svg>

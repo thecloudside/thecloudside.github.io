@@ -2662,6 +2662,7 @@ figcaption {
   max-width: 43%;
   font-family: Nunito, sans-serif;
   color: #fafafd;
+  text-transform: none;
 }
 
 .styleguide-subheader {
@@ -4458,9 +4459,13 @@ figcaption {
   color: #fafafd;
   font-weight: 600;
   letter-spacing: 0em;
+  text-transform: none;
 }
 
 .title.openings {
+  font-family: Lexend, sans-serif;
+  font-weight: 500;
+  text-transform: none;
   margin-bottom: 13px;
 }
 
@@ -4470,7 +4475,13 @@ figcaption {
 
 .title.card-career {
   margin-bottom: 14px;
-  font-size: 26px;
+  font-size: 20px;
+  font-family: Lexend, sans-serif;
+  font-weight:600;
+  color: #ea702d;
+  text-transform: none;
+  font-style: normal;
+
 }
 
 .title.card-career-page {

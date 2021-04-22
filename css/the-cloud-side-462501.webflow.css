@@ -5580,12 +5580,17 @@ figcaption {
   top: 28px;
   margin-top: 25px;
   padding: 40px 40px 53px;
-  border-style: solid;
-  border-width: 0.5px;
-  border-color: #cecddd;
-  border-radius: 36px;
-  background-color: #fff;
-  box-shadow: 0 6px 24px 0 rgba(48, 44, 255, 0.05);
+  border-style: none;
+  border-radius: 0px;
+  background-color: #fcf5f1;
+  opacity: 1;
+  font-family: Lexend, sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  -o-object-fit: fill;
+  object-fit: fill;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
 }
 
 .dropdown-list.w--open {

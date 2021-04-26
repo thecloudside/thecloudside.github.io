@@ -13688,3 +13688,15 @@ figcaption {
   font-style: normal;
   font-display: swap;
 }
+
+.df-messenger {
+  --df-messenger-bot-message: #ffffff;
+  --df-messenger-button-titlebar-color: #ea702d;
+  --df-messenger-chat-background-color: #ffffff;
+  --df-messenger-font-color: #383e56;
+  --df-messenger-send-icon: #383e56;
+  --df-messenger-user-message: #383e56;
+  --df-messenger-input-placeholder-font-color: #383256;
+  --df-messenger-send-icon: #383e56;
+  --df-messenger-user-message: #fcf5f1;
+}

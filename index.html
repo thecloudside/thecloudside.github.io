@@ -178,7 +178,17 @@
               </li>
             </ul>
           </nav>
-          <a href="contact.html" class="button-primary header-button w-button">Contact us</a>
+          <script type="text/javascript">
+            function openDialogflow(){
+              const dfMessenger = document.querySelector('df-messenger');
+              if(dfMessenger.getAttribute("expand")) {
+                dfMessenger.removeAttribute("expand");
+              } else {
+                dfMessenger.setAttribute("expand","true");
+              }             
+            }
+          </script>
+          <a onclick="openDialogflow()" class="button-primary header-button w-button">Contact us</a>
           <div class="menu-button w-nav-button">
             <div data-w-id="af1fb0bf-f077-295f-ad7f-69b2b112da8a" data-animation-type="lottie" data-src="documents/menu-button-code-template.json" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="2.0208333333333335" data-duration="0" class="menu-button-icon"></div>
           </div>
@@ -193,7 +203,7 @@
             <h1 data-w-id="92ef1ec6-49a5-75f3-0145-ff92f6b7f985" style="opacity:0;-webkit-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="heading">We make <span class="orange-text-span-heading">Cloud</span> work for you.</h1>
             <p data-w-id="7b613ffe-7d24-b2df-3205-d037549c7890" style="opacity:0;-webkit-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="paragraph home-hero">We are your trusted team of cloud-native and data problem solvers, helping you drive the best business outcomes with cloud as a catalyst. <br></p>
             <div data-w-id="ab90ec9c-caf1-82d1-5a42-bfec0feaec8a" style="opacity:0;-webkit-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="_2-buttons-wrapper">
-              <a href="contact.html" class="button-primary w-button">Contact us</a>
+              <a onclick="openDialogflow()" class="button-primary w-button">Contact us</a>
               <div class="space _2-buttons"></div>
               <a href="services.html" class="button-secondary w-button">Our Services</a>
             </div>
@@ -560,7 +570,7 @@
     <div class="container-default w-container">
       <div class="divider"></div>
     </div>
-    <div class="section cta">
+    <div class="section cta" style="display:none;">
       <div class="container-small-530px cta contact-us">
         <h2 data-w-id="0774e383-3619-03fa-f01b-2e89efc6b1ec" class="title cta white">Interested? Reach out.</h2>
       </div>
@@ -626,7 +636,7 @@
                     <a href="about.html" class="footer-link">About</a>
                   </li>
                   <li class="footer-link-list-item">
-                    <a href="contact.html" class="footer-link">Contact</a>
+                    <a onclick="openDialogflow()" class="footer-link">Contact</a>
                   </li>
                   <li class="footer-link-list-item">
                     <a href="services.html" class="footer-link">Services</a>
@@ -666,6 +676,8 @@ class="df-messenger"
 intent="WELCOME"
 chat-title="Contact Us"
 agent-id="e860893f-b52e-4462-bcde-6654fa746fe6"
+wait-open=true
+chat-icon="https://storage.googleapis.com/thecloudside/contact-us.png"
 language-code="en"></df-messenger>
 <meta name="viewport" content="width-device-width, initial-scale=1">
 </body>

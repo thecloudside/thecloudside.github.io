@@ -13749,6 +13749,8 @@ figcaption {
   font-display: swap;
 }
 
+.link-copyright { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; text-align: left; font-size: 10px; font-weight: 400; }
+
 .df-messenger {
   --df-messenger-bot-message: #ffffff;
   --df-messenger-button-titlebar-color: #ea702d;
